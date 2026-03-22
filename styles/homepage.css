@@ -1,3 +1,8 @@
-#paragraph {
-    font-size: large
+ body {
+    pointer-events: none;
+}
+    
+#page-title {
+    text-align: center;
+    font-size: xx-large;
 }
