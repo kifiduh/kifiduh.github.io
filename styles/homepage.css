@@ -1,8 +1,17 @@
- body {
-    pointer-events: none;
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-    
+        
 #page-title {
-    text-align: center;
     font-size: xx-large;
+    top: 0;
+}
+        
+#main-paragraph {
+    position: absolute;
+    top: 5%;
+    font-size: large;
+    text-wrap: wrap;
 }
