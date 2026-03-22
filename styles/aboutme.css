@@ -1,3 +1,31 @@
 body {
     pointer-events: none;
 }
+        
+p {
+    text-align: center;
+    font-size: large;
+}
+        
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+        
+#page-title {
+    font-size: xx-large;
+    top: 0;
+}
+        
+#main-paragraph {
+    top: 10%;
+}
+        
+#bday {
+    top: 20%;
+}
+        
+#more-info {
+    top: 28%;
+}

@@ -8,7 +8,15 @@ function updateBirthday() {
         const months = now.getMonth() - date.getMonth()
         const days = now.getDate() - date.getDate()
         const hours = now.getHours() - date.getHours()
-        const minutes = now.getMinutes() - date.getMinutes()
+
+        let minutes = 0
+
+        if (now.getMinutes() < date.getMinutes) {
+            minutes = date.getMinutes() - now.getMinutes()
+        } else if (now.getMinutes() >= date.getMinutes()) {
+            minutes = now.getMinutes() - date.getMinutes()
+        }
+
         const seconds = now.getSeconds() - date.getSeconds()
                 
         return {
