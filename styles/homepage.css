@@ -1,22 +1,43 @@
 body {
     pointer-events: none;
 }
-
+        
+a {
+    pointer-events: all;
+}
+        
 .centered {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-        
+                
 #page-title {
     font-size: xx-large;
     top: 0;
 }
-        
+                
 #main-paragraph {
     position: absolute;
-    top: 10%;
+    top: 5%;
     font-size: large;
     text-align: center;
     overflow-wrap: anywhere;
+}
+        
+#images {
+    top: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 250px
+}
+        
+#link-image {
+    width: 250px;
+    height: 250px;
+    transition: 0.5s ease
+}
+        
+#link-image:hover {
+    transform: scale(1.2);
 }
