@@ -3,13 +3,13 @@ const bdayLabel = document.getElementById("bday");
 function updateBirthday() {
     function timeSince(date) {
         const now = new Date();
-        
-        const years = now.getFullYear - date.getFullYear;
-        const months = now.getMonth - date.getMonth;
-        const days = now.getDay - date.getDay;
-        const hours = now.getHours - date.getHours;
-        const minutes = now.getMinutes - date.getMinutes;
-        const seconds = now.getSeconds - date.getSeconds;
+                
+        const years = now.getYear() - date.getYear()
+        const months = now.getMonth() - date.getMonth()
+        const days = now.getDate() - date.getDate()
+        const hours = now.getHours() - date.getHours()
+        const minutes = now.getMinutes() - date.getMinutes()
+        const seconds = now.getSeconds() - date.getSeconds()
                 
         return {
             years: years,
