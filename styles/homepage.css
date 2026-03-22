@@ -2,22 +2,22 @@ body {
     pointer-events: none;
     overflow: hidden;
 }
-        
+                    
 a {
     pointer-events: all;
 }
-        
+                    
 .centered {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-                
+                            
 #page-title {
     font-size: xx-large;
     top: 0;
 }
-                
+                            
 #main-paragraph {
     position: absolute;
     top: 7%;
@@ -25,25 +25,25 @@ a {
     text-align: center;
     overflow-wrap: anywhere;
 }
-        
+                    
 #images {
     top: 50%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25vmin
+    gap: 10vw
 }
-        
+                    
 #link-image {
-    width: 25vmin;
-    height: 25vmin;
+    width: 15vmax;
+    height: 15vmax;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
     transition: 0.5s ease
 }
-        
+            
 #link-image:hover {
     transform: scale(1.2);
 }
-
+            
 #splitter1 {
     top: 20%;
     font-size: xx-large;
