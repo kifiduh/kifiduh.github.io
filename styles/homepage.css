@@ -30,12 +30,12 @@ a {
     top: 50%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 250px
+    gap: 25vmin
 }
         
 #link-image {
-    width: 250px;
-    height: 250px;
+    width: 25vmin;
+    height: 25vmin;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
     transition: 0.5s ease
 }
