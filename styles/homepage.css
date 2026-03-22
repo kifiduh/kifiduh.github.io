@@ -11,7 +11,8 @@
         
 #main-paragraph {
     position: absolute;
-    top: 5%;
+    top: 10%;
     font-size: large;
-    text-wrap: wrap;
+    text-align: center;
+    overflow-wrap: anywhere;
 }
