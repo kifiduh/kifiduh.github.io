@@ -5,11 +5,29 @@ function updateBirthday() {
         const now = new Date();
                 
         const years = now.getYear() - date.getYear()
-        const months = now.getMonth() - date.getMonth()
-        const days = now.getDate() - date.getDate()
-        const hours = now.getHours() - date.getHours()
-        
+
+        let months = 0
+        let days = 0
+        let hours = 0
         let minutes = 0
+
+        if (now.getMonth() < date.getMonth) {
+            months = date.getMonth() - now.getMonth()
+        } else if (now.getMonth() >= date.getMonth()) {
+            months = now.getMonth() - date.getMonth()
+        }
+
+        if (now.getDate() < date.getDate) {
+            days = date.getDate() - now.getDate()
+        } else if (now.getDate() >= date.getDate()) {
+            days = now.getDate() - date.getDate()
+        }
+
+        if (now.getHours() < date.getHours) {
+            hours = date.getHours() - now.getHours()
+        } else if (now.getHours() >= date.getHours()) {
+            hours = now.getHours() - date.getHours()
+        }
 
         if (now.getMinutes() < date.getMinutes) {
             minutes = date.getMinutes() - now.getMinutes()
