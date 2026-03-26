@@ -1,0 +1,30 @@
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+        
+#container {
+    width: 65%;
+    top: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10vw
+}
+        
+#character-box {
+    background-color: rgba(255,0,0,1);
+    text-align: center;
+    font-size: 2.5vmin;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+    transition: 0.5s ease
+}
+        
+#character-box:hover {
+    transform: scale(1.2);
+}
+        
+#image {
+    width: 100%;
+    object-fit: cover;
+}
