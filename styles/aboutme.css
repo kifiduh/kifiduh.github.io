@@ -1,10 +1,9 @@
 body {
     pointer-events: none;
 }
-        
+                
 p {
     text-align: center;
-    font-size: large;
 }
         
 .centered {
@@ -14,18 +13,14 @@ p {
 }
         
 #page-title {
-    font-size: xx-large;
+    font-size: 5vmin;
+    white-space: nowrap;
     top: 0;
 }
         
-#main-paragraph {
-    top: 10%;
-}
-        
-#bday {
-    top: 20%;
-}
-        
-#more-info {
-    top: 28%;
+#main {
+    position: absolute;
+    top: 25%;
+    white-space: nowrap;
+    font-size: 3vmin;
 }
