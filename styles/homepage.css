@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'starshines';
-  src: url('/assets/fonts/Starshines.ttf') format('ttf'),
-       url('/assets/fonts/Starshines.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'starshines';
+    src: url('/assets/fonts/Starshines.ttf'),
+       url('/assets/fonts/Starshines.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
