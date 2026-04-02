@@ -22,7 +22,15 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-            
+
+#checkbox {
+    z-index: 10;
+    pointer-events: all;
+    font-family: sans-serif;
+    font-size: 1.5vmin;
+    width: 10%;
+}
+
 #fg {
     z-index: 1;
     width: 75%;
