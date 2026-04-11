@@ -9,7 +9,9 @@
 body {
     pointer-events: none;
     overflow: hidden;
-    background-color: rgba(247, 207, 225);
+    background-color: #FFC2DF;
+    background-repeat: repeat;
+    background-image: url('/assets/images/sprinkles.svg');
     font-family: 'starshines', sans-serif;
 }
             
