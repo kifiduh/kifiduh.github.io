@@ -59,6 +59,7 @@ a {
             
 #images {
     z-index: 2;
+    border-radius: 5vw;
     width: 65%;
     top: 50%;
     display: grid;
